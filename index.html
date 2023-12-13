@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Todolist en html ,css et javascript">
+    <meta name="theme-color" content="#2566f6" >
+    <meta name="keywords" content="Programmation , Logiciel, Site web">
+    <link rel="manifest" href="./manifest_and_icons/manifest.json">
+    <link rel="shortcut icon" href="./manifest_and_icons/icon512_maskable.png" >
+    <link rel="apple-touch-icon" href="../Todolist/manifest_and_icons/manifest.json" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript" defer></script>
+    <title>Todolist</title>
+</head>
+<body>
+ <div class="container">
+     <main class="main">
+         <h1 class="title">Ma To Do List</h1>
+        <div class="champTodos">
+            <form action="" id="form">
+                <label for="champ">
+                    <input type="text" name="champ" id="champ" placeholder="Ajouter une tâche " autocomplete="off" required>
+                </label>
+                <input type="submit" id="btnAjouter" value="Ajouter">
+                <p>Liste de mes tâches</p>
+
+                <div id="notache">Aucune tâche en cour...</div>
+                <ol id="ol"> </ol>
+
+            </form>
+
+
+        </div>
+     </main>
+     <button id="installBtn" class="installBtn">Installer l'application<i class="fa-solid fa-cloud-arrow-down"></i></button>
+
+ </div>
+</body>
+</html>
