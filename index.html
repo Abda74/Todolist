@@ -24,10 +24,13 @@
          <h1 class="title">Ma To Do List</h1>
         <div class="champTodos">
             <form action="" id="form">
-                <label for="champ">
+                <div class="formInput">
+                    <label for="champ"> </label>
                     <input type="text" name="champ" id="champ" placeholder="Ajouter une tâche " autocomplete="off" required>
-                </label>
-                <input type="submit" id="btnAjouter" value="Ajouter">
+                    <label for="btnAjouter"> </label>
+                    <input type="submit" id="btnAjouter" value="+">
+                </div>
+
                 <p>Liste de mes tâches</p>
 
                 <div id="notache">Aucune tâche en cour...</div>
@@ -35,11 +38,11 @@
 
             </form>
 
-
         </div>
      </main>
-     <button id="installBtn" class="installBtn">Installer l'application<i class="fa-solid fa-cloud-arrow-down"></i></button>
 
  </div>
+
+ <button id="installBtn" class="installBtn">Installer l'application<i class="fa-solid fa-cloud-arrow-down"></i></button>
 </body>
 </html>
