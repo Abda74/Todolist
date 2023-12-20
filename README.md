@@ -9,13 +9,13 @@ Cette application To-Do List vous permet de gérer vos tâches quotidiennes de m
 ## Fonctionnalités
 
 - Ajouter une tâche
-- Marquer une tâche comme terminée
+- Marquer une tâche comme favorie
 - Supprimer une tâche
 
 ## Installation
 
 1. Clonez ce dépôt : `git clone https://github.com/votre-utilisateur/to-do-list.git`
 2. Naviguez dans le répertoire du projet : `cd to-do-list`
-3. Installez les dépendances : `npm install`
+
 
 
